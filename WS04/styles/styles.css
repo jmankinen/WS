@@ -6,8 +6,8 @@ body {
 
 h1 {    
     font-size: 20px;
-    border: 3px double white;
-    border-radius: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 p {
