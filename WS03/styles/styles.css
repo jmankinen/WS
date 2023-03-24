@@ -17,7 +17,7 @@ p {
     color: lightgray;
 }
 .erillisdivisioona {
-   border: 2px dotted;  
-   width: 100px;
-   height: 100px;
+   border: 2px double;  
+   width: 200px;
+   height: 200px;
 }
