@@ -4,11 +4,13 @@ body {
     font-family: cursive, sans-serif;
 }
 
-h1 {
-    
+h1 {    
     font-size: 20px;
     border: 5px solid white;
     border-radius: 20px;
-
 }
 
+p {
+    border: 2px solid white;
+    border-radius: 10px;
+}
