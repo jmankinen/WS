@@ -6,8 +6,8 @@ body {
 
 h1 {
     font-size: 20px;
-    border: 5px double rgba(rgb(247, 4, 4), green, blue, alpha 1)
-    border-radius: 20px
+    border: 5px double red
+    border-radius: 10px
 
 }
 
