@@ -15,7 +15,7 @@ h1 {
     border-width: 500px;
     padding: 5px;
     background-color: cornflowerblue;
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 p {
@@ -28,5 +28,5 @@ image {
     margin: 10px 10px;
 }
 picture {
-    margin: 5px;
+    margin: 10px;
 }
