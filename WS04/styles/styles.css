@@ -19,7 +19,11 @@ p {
     border: 2px double white;
     border-radius: 10px;
     text-align: left;
+    padding: 5px;
 }
 image {
     margin: 10px 10px;
+}
+picture {
+    margin: 5px;
 }
