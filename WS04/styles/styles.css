@@ -28,8 +28,7 @@ picture {
 }
 
 #sisältö {
-    background: rosybrown
+    background: rosybrown;
     width: 50%;
-    center
     overflow: auto;
 }
