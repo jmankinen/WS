@@ -30,5 +30,5 @@ picture {
 #sisältö {
     background: rosybrown;
     width: 50%;
-    overflow: auto;
+    margin: auto;
 }
