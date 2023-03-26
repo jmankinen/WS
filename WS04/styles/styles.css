@@ -22,13 +22,17 @@ p {
 }
 image {
     margin: auto;
+    border: 2px solid blue;
 }
 picture {
     margin: auto;
+    border: 2px solid blue;
 }
 
 #sisältö {
     background: rosybrown;
     width: 50%;
     margin: auto;
+    border: 2px solid blue;
+    
 }
