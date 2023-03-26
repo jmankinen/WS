@@ -8,14 +8,14 @@ h1 {
     font-size: 20px;
     border: 2px solid white;
     border-radius: 10px;
-    border-width: 500px;
+    border-width: 5px;
     padding: 5px;
     background-color: cornflowerblue;
     opacity: 0.3;
 }
 
 p {
-    border: 2px double white;
+    border: 2px double black;
     border-radius: 10px;
     text-align: left;
     padding: 5px;
