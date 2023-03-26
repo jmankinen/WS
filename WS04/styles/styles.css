@@ -2,6 +2,7 @@ body {
     background-color: white;
     color: black;
     font-family: sans-serif;
+
 }
 
 h1 {    
@@ -12,6 +13,7 @@ h1 {
     padding: 5px;
     background-color: cornflowerblue;
     text-align: center;
+
 }
 
 p {
@@ -19,11 +21,13 @@ p {
     border-radius: 10px;
     text-align: left;
     padding: 5px;
+
 }
 
 .skebat {
     border: 2px solid blueviolet;
-    margin: auto;
+    margin-left: 50px;
+
 }
 
 #sisältö {
@@ -31,5 +35,9 @@ p {
     width: 50%;
     margin: auto;
     border: 2px solid blue;
-    
+
+}
+figure {
+    width: 200px;
+
 }
