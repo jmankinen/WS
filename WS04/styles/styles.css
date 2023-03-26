@@ -1,11 +1,7 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: cursive, sans-serif;
-}
-
-header {
-    background-image: url(http://www.tumblr.com/);
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
 }
 
 h1 {    
