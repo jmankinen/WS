@@ -24,12 +24,6 @@ p {
 
 }
 
-.skebat {
-    border: 2px solid blueviolet;
-    margin-left: 50px;
-
-}
-
 #sisältö {
     background: rosybrown;
     width: 50%;
@@ -37,7 +31,9 @@ p {
     border: 2px solid blue;
 
 }
-figure {
-    width: 200px;
 
+.skebat {
+    border: 5px solid blueviolet;
+    margin-left: 100px;
+    
 }
