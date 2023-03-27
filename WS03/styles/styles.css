@@ -16,6 +16,7 @@ p {
     font-size: 12px;
     border-color: rgb(216, 228, 90);
     border-width: 2px;
+    display: inline;
 
 }
 .erillisdivisioona {
