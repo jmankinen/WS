@@ -13,10 +13,16 @@
     font-size: 35px;
     color: white;
   }
-  ul {
+  
+  nav1 ul {
     display: inline;
   }
-  
+
+  nav1 li {
+    text-decoration: none;
+  }
+
+
   nav {
     float: left;
     width: 30%;
