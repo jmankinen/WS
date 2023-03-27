@@ -39,5 +39,8 @@ p {
 }
 figure {
     margin: 0px;
+
+}
+figcaption {
     text-align: center;
 }
