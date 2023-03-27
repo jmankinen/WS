@@ -44,3 +44,9 @@ figure {
 figcaption {
     text-align: center;
 }
+progress p {
+    display: inline;
+}
+meter p {
+    display: inline;
+}
