@@ -14,12 +14,12 @@
     color: white;
   }
   
-  nav1 ul {
-    display: inline;
+  nav1 a {
+    text-decoration: none;
   }
 
   nav1 li {
-    text-decoration: none;
+    display: inline;
   }
 
 
