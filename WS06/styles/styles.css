@@ -14,12 +14,12 @@
     color: white;
   }
 
-  nav1 li {
+  #nav1 li {
     float: left;
     display: inline;
   }
   
-  nav1 a {
+  #nav1 a {
     display: block;
     padding: 8px;
     background-color: #dddddd;
