@@ -1,5 +1,11 @@
   body {
     font-family: sans-serif;
+    height: fit-content;
+    flex-direction: column;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+
   }
   
   header {
@@ -9,4 +15,50 @@
     font-size: 35px;
     color: white;
     width: auto;
+    margin: 0px;
+  }
+
+  #div1 {
+    background-color: dimgray;
+    font-size:25px;
+    width: 100%;
+    text-align: center;
+     
+  }
+
+  #div1 ul {
+    list-style: none;
+    
+  }
+  #div1 li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #div1 a {
+  text-decoration: none;
+  color: white;
+  
+
+}
+
+  #div2 {
+    background-color: grey;
+    float: left;
+    width: 25%;
+    height: 456px;
+  }
+
+  article {
+    float: left;
+    margin-left: 10px;
+  }
+
+
+  footer {
+    padding: 0,5em;
+    color: white;
+    background-color: black;
+    text-align: center;
   }
