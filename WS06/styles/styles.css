@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: 0px;
     display: flex;
-    width: 100%;
+    width: auto;
 
   }
   
@@ -54,10 +54,15 @@
     margin-left: 10px;
   }
 
-
   footer {
-    padding: 0,5em;
+    position: absolute;
+    padding: 5px;
     color: white;
     background-color: black;
     text-align: center;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    
   }
+  
