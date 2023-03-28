@@ -16,11 +16,13 @@
 
   #nav1 ul {
     width: 100%;
-    display: inline;
+    height: 50px;
+    margin: 0px;
   }
 
   #nav1 li {
-      
+    display: inline;
+          
   }
   
   #nav1 a {
