@@ -22,7 +22,7 @@
   }
   
   #nav1 a {
-    display: block;
+    display: inline-block;
     padding: 40px;
     background-color: silver;
     text-decoration: none;
