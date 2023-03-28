@@ -15,7 +15,7 @@
   }
 
   #nav1 ul {
-    text-align: center;
+    width: 100%;
   }
 
   #nav1 li {
@@ -24,8 +24,8 @@
   
   #nav1 a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 40px;
+    background-color: silver;
     text-decoration: none;
   }
   
