@@ -13,26 +13,19 @@
     font-size: 35px;
     color: white;
   }
-  
-  li {
+
+  nav1 li {
     float: left;
-  }
-  
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    display: inline;
   }
   
   nav1 a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
     text-decoration: none;
   }
-
-  nav1 li {
-    display: inline;
-  }
-
-
+  
   nav {
     float: left;
     width: 30%;
