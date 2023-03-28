@@ -14,9 +14,12 @@
     color: white;
   }
 
+  #nav1 ul {
+    text-align: center;
+  }
+
   #nav1 li {
-    float: left;
-    display: inline;
+      display: inline;
   }
   
   #nav1 a {
