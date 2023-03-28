@@ -16,10 +16,11 @@
 
   #nav1 ul {
     width: 100%;
+    display: inline;
   }
 
   #nav1 li {
-      display: inline;
+      
   }
   
   #nav1 a {
@@ -32,7 +33,7 @@
   nav {
     float: left;
     width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
+    height: 150px;
     background: #ccc;
     padding: 20px;
   }
