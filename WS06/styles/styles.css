@@ -50,12 +50,15 @@
   }
 
   article {
-    float: left;
-    margin-left: 10px;
+    margin-left: 25%;
+    width: 75%;
+    position: fixed;
+    top: 275px;
+    padding-left: 10px;
   }
 
   footer {
-    position: absolute;
+    position: fixed;
     padding: 5px;
     color: white;
     background-color: black;
@@ -63,6 +66,7 @@
     left: 0%;
     right: 0%;
     bottom: 0%;
+    
     
   }
   
