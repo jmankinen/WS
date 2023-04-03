@@ -1,5 +1,5 @@
   body {
-    width: auto;
+    width: 90%;
     font-family: sans-serif;
     height: fit-content;
     flex-direction: column;
@@ -53,7 +53,7 @@
   article {
     margin-left: 25%;
     width: 75%;
-    position: fixed;
+    position: relative;
     top: 275px;
     padding-left: 10px;
   }
