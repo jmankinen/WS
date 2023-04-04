@@ -40,8 +40,12 @@
   #div1 a {
   text-decoration: none;
   color: white;
-  
+    
 }
+
+  #div1 a:hover {
+    color: red;
+  }
 
   #div2 {
     background-color: grey;
