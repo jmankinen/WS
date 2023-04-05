@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
   
   body {
@@ -11,7 +10,6 @@
     margin: 0px;
     display: flex;
     width: auto;
-
   }
   
   header {
@@ -29,7 +27,6 @@
     font-size:25px;
     width: 100%;
     text-align: center;
-     
   }
 
   #div1 ul {
@@ -58,7 +55,22 @@ div {
     background-color: grey;
     width: 15%;
     height: 456px;
-    
+  }
+
+  #div2 ul {
+    list-style: none;
+  }
+
+  #div2 li {
+    font-size: 20px;
+  }
+
+  #div2 a {
+    text-decoration: none;
+  }
+
+  #div2 a:hover {
+    color: red;
   }
 
   #div3 {
@@ -93,7 +105,6 @@ div {
     width: auto;
     padding-top: 0%;
     margin-bottom: 40px;
-        
   }
 
   section::after {
