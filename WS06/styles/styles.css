@@ -6,9 +6,7 @@
     width: 80%;
     font-family: sans-serif;
     height: fit-content;
-    flex-direction: column;
     margin: 0px;
-    display: flex;
     width: auto;
   }
   
@@ -31,8 +29,8 @@
 
   #div1 ul {
     list-style: none;
-    
   }
+
   #div1 li {
     display: inline;
     padding-left: 15px;
@@ -53,8 +51,9 @@ div {
 
   #div2 {
     background-color: grey;
-    width: 15%;
-    height: 456px;
+    width: auto;
+    height: 750px;
+    padding-right: 40px;
   }
 
   #div2 ul {
@@ -62,7 +61,7 @@ div {
   }
 
   #div2 li {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   #div2 a {
