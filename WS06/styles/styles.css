@@ -47,21 +47,23 @@
 
 div {
   float: left;
+  
 }
 
   #div2 {
     background-color: grey;
     width: auto;
     height: 750px;
-    padding-right: 40px;
+   
   }
 
   #div2 ul {
     list-style: none;
+    padding: 10px;
   }
 
   #div2 li {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #div2 a {
@@ -80,6 +82,7 @@ div {
   #div4 {
     width: 30%;
     padding: 2em;
+    margin-bottom: 40px;
   }
 
   #div5 {
@@ -102,8 +105,8 @@ div {
     clear: both;
     padding: 2em;
     width: auto;
-    padding-top: 0%;
-    margin-bottom: 40px;
+    padding-top: 10px;
+    margin-bottom: 40px;    
   }
 
   section::after {
@@ -114,7 +117,7 @@ div {
 
   footer {
     position: fixed;
-    padding: 5px;
+    padding: 2px;
     color: white;
     background-color: black;
     text-align: center;
