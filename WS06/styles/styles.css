@@ -34,7 +34,11 @@
   #div1 li {
     display: inline;
     padding-left: 15px;
-    }
+  }
+
+  #div1 li a.active {
+    color: rgb(204, 183, 163);
+  }
 
   #div1 a {
     text-decoration: none;
@@ -68,7 +72,15 @@ div {
     text-decoration: none;
   }
 
-  #div2 a:hover {
+  #div2 a:link {
+    color: blue;
+  }
+
+  #div2 a:visited {
+    color: blue;
+  }
+
+   #div2 a:hover {
     color: red;
   }
 
