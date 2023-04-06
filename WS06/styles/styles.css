@@ -53,8 +53,7 @@ div {
   #div2 {
     background-color: grey;
     width: auto;
-    height: 750px;
-   
+    height: 755px;
   }
 
   #div2 ul {
@@ -77,6 +76,7 @@ div {
   #div3 {
     width: 70%;   
     padding: 2em;
+    margin-bottom: 40px;
   }
 
   #div4 {
