@@ -47,7 +47,6 @@
 
 div {
   float: left;
-  
 }
 
   #div2 {
@@ -80,13 +79,13 @@ div {
   }
 
   #div4 {
-    width: 30%;
+    width: 40%;
     padding: 2em;
     margin-bottom: 40px;
   }
 
   #div5 {
-    width: 70%;
+    width: 60%;
     padding: 2em;
   }
 
