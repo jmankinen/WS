@@ -99,6 +99,7 @@ div {
   #div5 {
     width: 40%;
     padding: 2em;
+    margin-block: 40px;
   }
 
   #div6 {
