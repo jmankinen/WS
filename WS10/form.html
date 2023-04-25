@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styletabless.css">
+    <title>WS10B HTML Tables nd Forms</title>
+</head>
+
+<body>
+    <form action="#">
+      <fieldset>
+        <legend>New User</legend>
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John" required><Br><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="fname" placeholder="Smith" required><Br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><Br><br>
+
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="6" cols="80"></textarea><Br><br>
+
+        <input type="checkbox" id="nletter" name="nletter" value="nl">
+        <label for="nletter"> Sign up for newsletter</label><Br><br>  
+            
+        <label for="language"> Language of newsletter</label><Br><br>
+        <select name="language" id="language">
+            <option value="Finnish">Finnish</option>
+            <option value="English">English</option>
+            <option value="Swedish">Svenska</option>  
+            <option value="Swahili">Swahili</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Add new user">
+
+      </fieldset>  
+    </form>
+
+    <div id="nav">
+        <button><a href="index.html">Go To Table</a></button>
+    </div>
+</body>
+
+</html>

@@ -1,1 +1,1 @@
-Tämä on Verkkosivujen kehittäminen WS10 työpaja kansio
+Tämä on Verkkosivujen kehittäminen WS10 työpaja kansio, tables ja forms
