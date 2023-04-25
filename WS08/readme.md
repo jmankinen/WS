@@ -1,1 +1,1 @@
-Tämä on Verkkosivujen kehittäminen WS08 työpaja kansio
+Tämä on Verkkosivujen kehittäminen WS09 työpaja kansio. Yritän vääntää Bootstrapilla wireframen mukaista pohjaa webbisivuille.
