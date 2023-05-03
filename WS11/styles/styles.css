@@ -1,6 +1,10 @@
-     
-     
-    
+@mixin gradient-bg($color: null) {
+    background-color: $color;
+  
+    @if $enable-gradients {
+      background-image: var(--#{$variable-prefix}gradient);
+    }
+  }
 
 @font-face {
     font-family: Bangers;
@@ -120,33 +124,32 @@
     margin: 20px;
     font-family: IndieFlower, cursive;
     font-size: 30px;
-} 
+}  
 #ip11 {
     width: 440px;
     margin: 20px;
     font-family: VinaSans, cursive;
     font-size: 30px;
-}  
-body {
-    background-color: #cccccc;
-    background-image: linear-gradient(black, lightslategrey);
-}
+    color: #cccccc;
     
+} 
+body {
+background-color: #cccccc;
+background-image: linear-gradient(black, grey);
+
+}
+
 #con {
-    background-color: #534e83;
-    background-image: linear-gradient(to bottom, white, #090003);
+    
+    background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, #ffffff, #090003);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
-
-
- 
-
-
-
+   
 
 
 

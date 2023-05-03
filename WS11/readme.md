@@ -1,1 +1,1 @@
-Tämä on Verkkosivujen kehittäminen WS11 työpaja kansio
+Tämä on custom fonttien testailuun tehty Lorem Ipsum-sivu
