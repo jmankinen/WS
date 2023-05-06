@@ -15,14 +15,11 @@
     src: url('fonts/Slackey-Regular.ttf');
 }
 
-
 body {
   background-color: #5840ac;
   background-image: linear-gradient(black, grey);
   
-  
   }
-
 
 header {
   background-image: url('pics/kallistettuoik.png');
@@ -36,4 +33,29 @@ header {
   
   text-align: center;
   padding: 5px;
+}
+
+nav {
+  font-family: cursive;
+  background-color: transparent;
+  color: white;
+
+}
+
+#carouselExampleAutoplaying {
+  width: 50%;
+  max-height: fit-content;
+  position: absolute;
+  
+}
+
+/*#con {
+    
+  background-color: #f3ec78;
+  background-image: linear-gradient(to bottom, #ffffff, #090003);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
