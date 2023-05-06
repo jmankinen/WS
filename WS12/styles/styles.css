@@ -1,155 +1,39 @@
-     
-     
-    
+@mixin gradient-bg($color: null) {
+  background-color: $color;
 
-@font-face {
-    font-family: Bangers;
-    src: url('fonts/Bangers-Regular.ttf');
-}
-
-@font-face {
-    font-family: Smokum;
-    src: url('fonts/Smokum-Regular.ttf') 
-}
-
-@font-face {
-    font-family: Slackey;
-    src: url('fonts/Slackey-Regular.ttf');
-}
-
-@font-face {
-    font-family: SixCaps;    
-    src: url('fonts/SixCaps-Regular.ttf');
-}
-
-@font-face {
-    font-family: ShadowsIntoLight;    
-    src: url('fonts/ShadowsIntoLight-Regular.ttf');
+  @if $enable-gradients {
+    background-image: var(--#{$variable-prefix}gradient);
+  }
 }
 
 @font-face {
     font-family: SassyFrass;    
     src: url('fonts/SassyFrass-Regular.ttf');
 }
-
 @font-face {
-    font-family: MetalMania;
-    src: url('fonts/MetalMania-Regular.ttf');
-}
-
-@font-face {
-    font-family: LimeLight;
-    src: url('fonts/Limelight-Regular.ttf');
-}
-
-@font-face {
-    font-family: JustAnotherHand;
-    src: url('fonts/JustAnotherHand-Regular.ttf');
-}
-
-@font-face {
-    font-family: IndieFlower;
-    src: url('fonts/IndieFlower-Regular.ttf');
-}
-
-@font-face {
-    font-family: VinaSans;
-    src: url('fonts/VinaSans-Regular.ttf');
+    font-family: Slackey;
+    src: url('fonts/Slackey-Regular.ttf');
 }
 
 
-
-#ip1 {
-    width: 440px;
-    margin: 20px;
-    font-family: Bangers, cursive;
-    font-size: 30px;
-    
-}  
-#ip2 {
-    width: 440px;
-    margin: 20px;
-    font-family: Smokum, cursive;
-    font-size: 40px;
-        
-}  
-#ip3 {
-    width: 440px;
-    margin: 20px;
-    font-family: Slackey, cursive;
-    font-size: 30px;
-}  
-#ip4 {
-    width: 440px;
-    margin: 20px;
-    font-family: SixCaps, cursive;
-    font-size: 40px;
-}  
-#ip5 {
-    width: 440px;
-    margin: 20px;
-    font-family: ShadowsIntoLight, cursive;
-    font-size: 30px;
-}  
-#ip6 {
-    width: 440px;
-    margin: 20px;
-    font-family: SassyFrass, cursive;
-    font-size: 50px;
-}  
-#ip7 {
-    width: 440px;
-    margin: 20px;
-    font-family: MetalMania, cursive;
-    font-size: 35px;
-}  
-#ip8 {
-    width: 440px;
-    margin: 20px;
-    font-family: LimeLight, cursive;
-    font-size: 30px;
-}  
-#ip9 {
-    width: 440px;
-    margin: 20px;
-    font-family: JustAnotherHand, cursive;
-    font-size: 30px;
-}  
-#ip10 {
-    width: 440px;
-    margin: 20px;
-    font-family: IndieFlower, cursive;
-    font-size: 30px;
-} 
-#ip11 {
-    width: 440px;
-    margin: 20px;
-    font-family: VinaSans, cursive;
-    font-size: 30px;
-}  
 body {
-    background-color: #cccccc;
-    background-image: linear-gradient(black, lightslategrey);
-}
-    
-#con {
-    background-color: #534e83;
-    background-image: linear-gradient(to bottom, white, #090003);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-
-
- 
-
-
-
-
-
-
+  background-color: #5840ac;
+  background-image: linear-gradient(black, grey);
   
+  
+  }
 
 
+header {
+  background-image: url('pics/kallistettuoik.png');
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: transparent;
+  font-family: SassyFrass, sans-serif;
+  font-size: 120px;
+  color: white;
+  
+  text-align: center;
+  padding: 5px;
+}
