@@ -1,3 +1,15 @@
+@media only screen and (max-width: 600px) {
+  .carousel-inner {
+    padding: 7%;
+  }
+  .elementti {
+    text-align: center;
+  }
+}
+.container {
+  max-width: 80%;
+}
+
 @mixin gradient-bg($color: null) {
   background-color: $color;
 
@@ -42,12 +54,7 @@ nav {
 
 }
 
-#carouselExampleAutoplaying {
-  width: 50%;
-  max-height: fit-content;
-  position: absolute;
-  
-}
+
 
 /*#con {
     
