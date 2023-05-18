@@ -2,12 +2,11 @@
   .carousel-inner {
     padding: 7%;
   }
-  .elementti {
-    text-align: center;
-  }
 }
-.container {
-  max-width: 80%;
+@media screen and (max-width: 600px) {
+  header.background-image {
+    display: none;
+  }
 }
 
 @mixin gradient-bg($color: null) {
@@ -29,38 +28,62 @@
 
 body {
   background-color: #5840ac;
-  background-image: linear-gradient(black, grey);
+  background-image: linear-gradient(black, white);
   
   }
 
 header {
-  background-image: url('pics/kallistettuoik.png');
+ 
+  background-image: url('pics/kallistettuoik.png'), url('pics/kallistettuvas.png');
   background-size: 120px;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
   background-color: transparent;
   font-family: SassyFrass, sans-serif;
   font-size: 120px;
   color: white;
-  
   text-align: center;
   padding: 5px;
+
+}
+@media only screen and (max-width: 1100px) {
+  header {
+    background-image: none;
+  }
 }
 
 nav {
   font-family: cursive;
   background-color: transparent;
-  color: white;
-
+   
 }
 
+h2 {
+  color: white;
+  
+}
 
+.row {
+  margin: 30px;
+}
 
-/*#con {
+footer {
+  position: fixed;
+  padding: 12px 0px 0px 0px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+#kontentti {
     
   background-color: #f3ec78;
   background-image: linear-gradient(to bottom, #ffffff, #090003);
   background-size: 100%;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
