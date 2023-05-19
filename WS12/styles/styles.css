@@ -1,13 +1,4 @@
-@media only screen and (max-width: 600px) {
-  .carousel-inner {
-    padding: 7%;
-  }
-}
-@media screen and (max-width: 600px) {
-  header.background-image {
-    display: none;
-  }
-}
+
 
 @mixin gradient-bg($color: null) {
   background-color: $color;
@@ -66,6 +57,9 @@ h2 {
 .row {
   margin: 30px;
 }
+#axe10, #axe12 {
+  margin-bottom: 50px;
+}
 
 footer {
   position: fixed;
@@ -76,6 +70,12 @@ footer {
   left: 0%;
   right: 0%;
   bottom: 0%;
+  
+}
+
+#karuselli img {
+  margin-left: 350px;
+  
 }
 
 #kontentti {
@@ -89,3 +89,7 @@ footer {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+#karuselli{
+background: black;
+}
+
