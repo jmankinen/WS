@@ -99,7 +99,7 @@ footer {
 #karuselli .carousel-item img {
   object-fit:contain;
   object-position: center;
-  height: 60vh;
+  height: 50vh;
   overflow: hidden;
 
 }
