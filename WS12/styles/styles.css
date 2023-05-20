@@ -11,9 +11,9 @@
 body {
   
   background-color: #5840ac;
-  background-image: linear-gradient(90deg, rgb(21, 1, 33), rgb(83, 34, 126));
+  background-image: linear-gradient(90deg, rgb(21, 1, 33), rgb(67, 26, 105));
   background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
+  animation: gradient 20s ease infinite;
   height: 100vh;
   }
 
@@ -29,6 +29,7 @@ body {
     }
   }
 
+
 header {
   
   background-image: url('pics/kallistettuoik.png'), url('pics/kallistettuvas.png');
@@ -40,7 +41,7 @@ header {
   font-size: 120px;
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 0px;
 
 }
 
@@ -68,6 +69,7 @@ header {
 nav {
   font-family: cursive, sans-serif;
   background-color: transparent;
+  
   }
 
 .row {
