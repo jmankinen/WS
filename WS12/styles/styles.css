@@ -1,13 +1,4 @@
 
-
-@mixin gradient-bg($color: null) {
-  background-color: $color;
-
-  @if $enable-gradients {
-    background-image: var(--#{$variable-prefix}gradient);
-  }
-}
-
 @font-face {
     font-family: SassyFrass;    
     src: url('fonts/SassyFrass-Regular.ttf');
@@ -18,13 +9,28 @@
 }
 
 body {
-  background-color: #5840ac;
-  background-image: linear-gradient(black, white);
   
+  background-color: #5840ac;
+  background-image: linear-gradient(90deg, rgb(21, 1, 33), rgb(83, 34, 126));
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  height: 100vh;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 
 header {
- 
+  
   background-image: url('pics/kallistettuoik.png'), url('pics/kallistettuvas.png');
   background-size: 120px;
   background-repeat: no-repeat;
@@ -37,35 +43,45 @@ header {
   padding: 5px;
 
 }
+
 @media only screen and (max-width: 1100px) {
   header {
     background-image: none;
   }
 }
+@media only screen and (max-width: 850px) {
+  header {
+    font-size:100px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  header {
+    font-size:80px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  header {
+    font-size:60px;
+  }
+}
 
 nav {
-  font-family: cursive;
-  background-color: black;
-   
-}
-
-h2 {
-  color: white;
-  
-}
+  font-family: cursive, sans-serif;
+  background-color: transparent;
+  }
 
 .row {
   margin: 30px;
 }
 #axe10, #axe12 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 footer {
   position: fixed;
   padding: 12px 0px 0px 0px;
   color: white;
-  background-color: black;
+  background-color: transparent;
   text-align: center;
   left: 0%;
   right: 0%;
@@ -73,23 +89,16 @@ footer {
   
 }
 
-#karuselli img {
-  margin-left: 350px;
-  
+#kontentti {
+  color: white;
+  font-family: slackey, sans-serif;
 }
 
-#kontentti {
-    
-  background-color: #f3ec78;
-  background-image: linear-gradient(to bottom, #ffffff, #090003);
-  background-size: 100%;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-#karuselli{
-background: black;
+#karuselli .carousel-item img {
+  object-fit:contain;
+  object-position: center;
+  height: 60vh;
+  overflow: hidden;
+
 }
 
