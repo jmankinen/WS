@@ -9,11 +9,11 @@
 }
 
 body {
-  
+
   background-color: #5840ac;
   background-image: linear-gradient(45deg, black, rgb(22, 43, 30), rgb(31, 11, 49));
-  background-size: 400% 400%;
-  animation: gradient 100s ease infinite;
+  background-size: 1200% 1200%;
+  animation: gradient 10s ease infinite;
   height: 100vh;
   }
 
@@ -76,7 +76,11 @@ nav {
   margin: 30px;
 }
 #axe10, #axe12 {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+#axe1, #axe2, #axe3, #axe5, #axe6, #axe7, #axe8
+#axe9, #axe10, #axe11, #axe13, #axe14, #axe15 {
+  margin-bottom: 70px;
 }
 
 footer {
