@@ -101,5 +101,8 @@ footer {
   height: 50vh;
   overflow: hidden;
 
+#tervehdys {
+  color: white;
+  font-family: slackey, sans-serif;
 }
 
